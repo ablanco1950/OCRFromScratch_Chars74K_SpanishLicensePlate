@@ -15,7 +15,7 @@ modelCNN = keras.models.load_model('Model240Epoch.h5')
 
 MinRowBlack=175
 
-FactorColumBlack=53/58
+FactorColumBlack=54/58
   
 dir="C:\\"
 
