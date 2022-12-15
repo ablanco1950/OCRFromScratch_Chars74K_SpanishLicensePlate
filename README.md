@@ -21,6 +21,11 @@ from tensorflow.keras.layers import Dense, Dropout
 
 import cv2
 
+Download from http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/
+
+the EnglishImg.tgz file, unzip it and delete the folders that contain the lowercase characters, it is assumed that having fewer classes will make it easier to make predictions and car license plates only admit uppercase.
+Rename the downloaded folder as EnglishImgRedu and check that in the path C:\EnglishImgRedu\EnglishImg\English\Img\GoodImg\Bmp there are only the folders from Sample001 to Sample036
+
 Operative:
 
 Create the model using keras CNN, by running:
