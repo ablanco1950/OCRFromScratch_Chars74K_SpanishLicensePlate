@@ -38,3 +38,25 @@ GetNumberSpanishLicensePlate_OCRChar64K_labels_MaxFilters.py
 Each car license plate appears on the screen with the text that could have been recognized from the image and the final result assigning the car license plate that has been recognized the most times.
 
 As output, the LicenseResults.txt file is also obtained with the relation between true license plate and predicted license plate.
+
+Observations:
+
+The CNN parameters have been obtained from other works that are listed in the references section and adjusted according to the observed hit rate.
+
+As a difference, is the introduction of several levels of dense in order to carry out a cascading classification.
+
+The values obtained in the CNN model vary from one execution to another, even if the parameters are maintained, which suggests the existence of uninitialized weights that accept a random value in each execution. In same cases de Hit rate increase till 14 hits in 21 images. May be neccessary lto save and use this optimal .h5 files.
+
+References:
+
+ http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/ 
+ 
+ https://www.roboflow.com
+ 
+ https://towardsdatascience.com/convolutional-neural-network-cnn-architecture-explained-in-plain-english-using-simple-diagrams-e5de17eacc8f
+ 
+ https://b-jyenis.medium.com/custom-build-your-convolutional-neural-network-cnn-from-scratch-in-tensorflow-7381782aa017
+ 
+ https://harald-scheidl.medium.com/why-pooling-layers-in-deep-learning-can-cause-problems-d2f5a7866135
+ 
+ https://keras.io/api/layers/initializers/
