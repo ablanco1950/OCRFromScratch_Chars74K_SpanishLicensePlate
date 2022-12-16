@@ -43,6 +43,8 @@ Observations:
 
 The CNN parameters have been obtained from other works that are listed in the references section and adjusted according to the observed hit rate.
 
+The last maxppoling is omitted(best results)
+
 As a difference, is the introduction of several levels of dense in order to carry out a cascading classification.
 
 The values obtained in the CNN model vary from one execution to another, even if the parameters are maintained, which suggests the existence of uninitialized weights that accept a random value in each execution. In same cases de Hit rate increase till 14 hits in 21 images. May be neccessary to save and use this optimal .h5 files.
