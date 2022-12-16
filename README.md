@@ -24,7 +24,7 @@ import cv2
 Download from http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/ the EnglishImg.tgz file, unzip it and delete the folders that contain the lowercase characters, it is assumed that having fewer classes will make it easier to make predictions and car license plates only admit uppercase.
 Rename the downloaded folder as EnglishImgRedu and check that in the path C:\EnglishImgRedu\EnglishImg\English\Img\GoodImg\Bmp there are only the folders from Sample001 to Sample036
 
-In the download directory you should find the downloaded test6Training.zip (roboflow.com) and must unzip folder: test6Training with all its subfolders, containing the images for the test and its labels. This directory must be in the same directory where is the program GetNumberSpanishLicensePlate_OCRChar64K_labels_MaxFilters.py ( unziping may create two directories with name test6Training and the images may not be founded when executing it, it would be necessary copy of inner directory test6Training in the same directory where is LicensePlateFindContours.py)
+In the download directory you should find the downloaded test6Training.zip (roboflow.com) and must unzip folder: test6Training with all its subfolders, containing the images for the test and its labels. This directory must be in the same directory where is the program GetNumberSpanishLicensePlate_OCRChar64K_labels_MaxFilters.py ( unziping may create two directories with name test6Training and the images may not be founded when executing it, it would be necessary copy of inner directory test6Training in the same directory where is OCRfromScratchKerasCNN_Chars74k_SpanishLicensePlate.py)
 
 Operative:
 
