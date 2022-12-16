@@ -28,7 +28,7 @@ In the download directory you should find the downloaded test6Training.zip (robo
 
 Operative:
 
-Create the model using keras CNN, by running:
+Create the model using keras CNN by running:
 
 OCRfromScratchKerasCNN_Chars74k_SpanishLicensePlate.py
 
